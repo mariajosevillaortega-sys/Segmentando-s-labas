@@ -1,0 +1,22 @@
+AVENTURA SILÁBICA — PAQUETE PARA GITHUB PAGES
+
+CONTENIDO
+- index.html
+- carpeta assets/ con todos los recursos visuales originales del videojuego
+
+IMPORTANTE
+1. Descomprime este ZIP en tu computador.
+2. Sube a tu repositorio de GitHub el archivo index.html Y la carpeta assets completa.
+3. Ambos deben quedar en la raíz del repositorio, así:
+
+   repositorio/
+   ├── index.html
+   └── assets/
+       ├── asset_001.webp
+       ├── asset_002.webp
+       └── ...
+
+4. NO subas solamente el ZIP: GitHub Pages no lo descomprime.
+5. En Settings > Pages configura: Deploy from a branch > main > /(root).
+
+Esta versión conserva el mismo HTML, JavaScript, audio por síntesis de voz, progreso y funcionamiento del archivo original. Únicamente se extrajeron las imágenes embebidas a archivos separados para que index.html quede muy por debajo del límite de 25 MB por archivo del cargador web de GitHub.
